@@ -1,0 +1,78 @@
+body {
+    margin: 0; 
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(./assets/Nunito-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.flex {
+    display: flex;
+}
+
+.big-section {
+    min-height: 100%;
+    padding: 300px 200px;
+    max-width: 100%;
+    background-image: url(./assets/image1.jpg);
+}
+
+.section {
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.small-section1 {
+    background-image: url(./assets/image2.jpg);
+    height: 300px;
+    max-width: 100%;
+}
+
+.small-section2 {
+    background-image: url(./assets/image3.jpg);
+    height: 300px;
+    max-width: 100%;
+    color: white;
+}
+.text-card-img {
+    background-color: #111111;
+}
+
+.text-card {
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.section-text {
+    max-width: 100%;
+    height: 200px;
+    padding: 30px 100px;
+}
+
+.section-text1 {
+    background-color: #f4f4f4;
+}
+
+.section-text2 {
+    background-color: black;
+    color: white;
+}
